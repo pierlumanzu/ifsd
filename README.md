@@ -1,6 +1,6 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3106/)
 [![license](https://img.shields.io/badge/license-apache_2.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)
-[![DOI](https://zenodo.org/badge/596107659.svg)](https://zenodo.org/badge/latestdoi/596107659)
+[![DOI](https://zenodo.org/badge/588524907.svg)](https://zenodo.org/badge/latestdoi/588524907)
 
 <p>
   <img src="README_Front_Image_1.gif" width="49%" />
@@ -8,6 +8,28 @@
 </p>
 
 ## IFSD: Improved Front Steepest Descent for Multi-Objective Optimization
+
+Implementation of the IFSD Algorithm proposed in
+
+[Lapucci, M. & Mansueto, P., Improved Front Steepest Descent for Multi-objective Optimization. arXiv pre-print (2023).](
+https://doi.org/10.48550/ARXIV.2301.03310)
+
+If you have used our code for research purposes, please cite the publication mentioned above.
+For the sake of simplicity, we provide the Bibtex format:
+
+```
+@misc{ifsd2023,
+  doi = {10.48550/ARXIV.2301.03310},
+  url = {https://arxiv.org/abs/2301.03310},
+  author = {Lapucci, Matteo and Mansueto, Pierluigi},
+  keywords = {Optimization and Control (math.OC), FOS: Mathematics, FOS: Mathematics, 90C29 90C30}, 
+  title = {Improved Front Steepest Descent for Multi-objective Optimization},
+  publisher = {arXiv}, 
+  year = {2023},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+```
 
 ### Main Dependencies Installation
 
