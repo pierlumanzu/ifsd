@@ -11,22 +11,25 @@
 
 Implementation of the IFSD Algorithm proposed in
 
-[Lapucci, M. & Mansueto, P., Improved Front Steepest Descent for Multi-objective Optimization. arXiv pre-print (2023).](
-https://doi.org/10.48550/ARXIV.2301.03310)
+[Lapucci, M. & Mansueto, P., Improved front steepest descent for multi-objective optimization. Operations Research Letters (2023).](
+https://doi.org/10.1016/j.orl.2023.03.001)
 
 If you have used our code for research purposes, please cite the publication mentioned above.
 For the sake of simplicity, we provide the Bibtex format:
 
 ```
-@misc{ifsd2023,
-  doi = {10.48550/ARXIV.2301.03310},
-  url = {https://arxiv.org/abs/2301.03310},
-  author = {Lapucci, Matteo and Mansueto, Pierluigi},
-  keywords = {Optimization and Control (math.OC), FOS: Mathematics, FOS: Mathematics, 90C29 90C30}, 
-  title = {Improved Front Steepest Descent for Multi-objective Optimization},
-  publisher = {arXiv}, 
-  year = {2023},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@article{LAPUCCI2023242,
+    title = {Improved front steepest descent for multi-objective optimization},
+    journal = {Operations Research Letters},
+    volume = {51},
+    number = {3},
+    pages = {242-247},
+    year = {2023},
+    issn = {0167-6377},
+    doi = {https://doi.org/10.1016/j.orl.2023.03.001},
+    url = {https://www.sciencedirect.com/science/article/pii/S0167637723000433},
+    author = {Matteo Lapucci and Pierluigi Mansueto},
+    keywords = {Multi-objective optimization, Steepest descent, Pareto front}
 }
 
 ```
