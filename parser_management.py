@@ -41,7 +41,7 @@ def get_args():
     parser.add_argument('--gurobi_verbose', help='Gurobi parameter -- Verbose during the Gurobi iterations', action='store_true', default=False)
 
     ####################################################
-    ### ONLY FOR FPGA ###
+    ### ONLY FOR IFSD ###
     ####################################################
 
     parser.add_argument('--IFSD_theta_tol', help='IFSD parameter -- Theta tolerance', default=-1.0e-7, type=float)
