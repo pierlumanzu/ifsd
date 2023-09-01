@@ -15,15 +15,6 @@ class ExtendedProblem(Problem, ABC):
         self.__filtered_lb_for_ini = np.array([-2.0e19] * self.n, dtype=float)
         self.__filtered_ub_for_ini = np.array([2.0e19] * self.n, dtype=float)
 
-    def evaluate_functions_hessian(self, x: np.array):
-
-        hessian = np.zeros((self.m, self.n, self.n))
-        for i in range(self.m):
-            if self.__objectives_hessians[i] is not None:
-                hessian[i, :, :] = self.__objectives_hessians[i].eval({self._z: x})
-
-        return hessian
-
     def generate_feasible_random_point(self):
         return np.random.uniform(self.__filtered_lb_for_ini, self.__filtered_ub_for_ini)
 
