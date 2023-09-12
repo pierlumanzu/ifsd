@@ -27,7 +27,7 @@ class ExtendedGradientBasedAlgorithm(GradientBasedAlgorithm, ABC):
                                         True, gurobi_method, gurobi_verbose,
                                         0., 0., 0., 0.)
 
-        self._direction_solver = DirectionSolverFactory.get_direction_calculator(name_DDS, gurobi_method, gurobi_verbose)
+        self._direction_solver = DirectionSolverFactory.get_direction_calculator(name_DDS, gurobi_method, gurobi_verbose) if name_DDS is not None else None
         self._line_search = LineSearchFactory.get_line_search(name_ALS, ALS_alpha_0, ALS_delta, ALS_beta, ALS_min_alpha) if name_ALS is not None else None
 
     @staticmethod
